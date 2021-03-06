@@ -16,6 +16,10 @@ const GlobalStyles = createGlobalStyle`
     -webkit-font-smootthing: antialiased;
   }
 
+  html, body, #__next {
+    height: 100%;
+  }
+
   button {
     cursor: pointer;
   }
